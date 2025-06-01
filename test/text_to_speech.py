@@ -12,7 +12,7 @@ load_dotenv()
 deepgram = DeepgramClient(os.getenv("DEEPGRAM_API_KEY"))
 
 SPEAK_TEXT = {"text": "Hello world!"}
-filename = "test.mp3"
+filename = "test.wav"
 
 def main():
     try:
