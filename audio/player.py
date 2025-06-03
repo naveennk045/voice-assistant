@@ -78,7 +78,7 @@ class AudioPlayer:
 def main():
     player = AudioPlayer()
     
-    player.play_audio("audio\data\output.wav")
+    player.play_audio(r"audio\data\output.wav")
     player.close()
 
 if __name__ == "__main__":
